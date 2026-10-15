@@ -1,0 +1,40 @@
+# Python bytecode, caches, and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Packaging output (rebuild with app/build.py)
+build/
+dist/
+*.spec
+*.egg-info/
+
+# Generated contracts, temporary files, and local templates/data
+generated_contracts/
+temp/
+/test_data/
+/test_templates/
+*.log
+~$*
+
+# Local environment settings and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini

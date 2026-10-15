@@ -1,0 +1,23 @@
+# 合同生成器依赖包
+# Contract Generator Dependencies
+
+# GUI框架 / GUI Framework
+# tkinter 是Python标准库，无需安装
+
+# 文档处理 / Document Processing
+python-docx==0.8.11          # Word文档处理
+
+# 数据处理 / Data Processing
+pandas==2.1.4                # 数据分析和处理
+openpyxl==3.1.2              # Excel文件读写
+numpy==1.26.4                # 数值库（pandas依赖，显式声明以便打包）
+xlrd==1.2.0                  # 读取旧版Excel .xls（pandas依赖引擎）
+
+# 模板引擎 / Template Engine
+Jinja2==3.1.2                # 模板渲染引擎
+
+# 图像处理 / Image Processing
+Pillow==10.1.0               # 图像处理库
+
+# 打包工具 / Packaging Tools (开发用)
+PyInstaller==6.3.0          # 打包为可执行文件
